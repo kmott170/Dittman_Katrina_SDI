@@ -4,7 +4,6 @@
     <list default="true" id="b462da76-cb61-4d48-8bda-fcea7e5a70bc" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/day3.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/js/script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 4/js/day4.js" afterPath="$PROJECT_DIR$/Day 4/js/day4.js" />
     </list>
     <ignored path="Dittman_Katrina_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,14 +37,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day4.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day4.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 4/js/day4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7972973" vertical-offset="1060" max-vertical-offset="1845">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1060" max-vertical-offset="1845">
               <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day4_prompting.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 4/js/day4_prompting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18243243" vertical-offset="0" max-vertical-offset="740">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day4prompting.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 4/day4prompting.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,6 +86,8 @@
         <option value="$PROJECT_DIR$/Day3LabExpressions/js/day3labexpressions.js" />
         <option value="$PROJECT_DIR$/Day 4/day4.html" />
         <option value="$PROJECT_DIR$/Day 4/js/day4.js" />
+        <option value="$PROJECT_DIR$/Day 4/day4prompting.html" />
+        <option value="$PROJECT_DIR$/Day 4/js/day4_prompting.js" />
       </list>
     </option>
   </component>
@@ -382,8 +405,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 4/js/day4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7972973" vertical-offset="1060" max-vertical-offset="1845">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1060" max-vertical-offset="1845">
           <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 4/day4prompting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 4/js/day4_prompting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18243243" vertical-offset="0" max-vertical-offset="740">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

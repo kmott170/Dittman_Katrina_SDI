@@ -13,3 +13,7 @@ var arryCyl = [];
 //Prompting the user to enter "3.1416" or Pi
 arryCyl[0]= prompt("Please enter the value of Pi: ", "3.1416");
 //Prompting the user to enter a radius in inches
+arryCyl[1]= prompt("Please enter the value of the radius in inches:");
+//Prompting the user to enter a height in inches
+arryCyl[2]= prompt("Please enter the value of height in inches:");
+//Array being used to define r to the power of 2

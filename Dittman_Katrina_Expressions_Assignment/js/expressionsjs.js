@@ -17,3 +17,10 @@ arryCyl[1]= prompt("Please enter the value of the radius in inches:");
 //Prompting the user to enter a height in inches
 arryCyl[2]= prompt("Please enter the value of height in inches:");
 //Array being used to define r to the power of 2
+arryCyl[1] *= arryCyl[1];
+//Array to solve for the volume of a cylinder
+arryCyl[3]= arryCyl[2] * arryCyl[1] * arryCyl[0];
+//Printing out the solution to the console for the equation above
+console.log("The volume of the cylinder is: " + arryCyl[3] + " in inches." );
+
+

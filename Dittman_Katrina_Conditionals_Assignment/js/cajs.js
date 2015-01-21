@@ -12,7 +12,8 @@ Prompting
 //Declaring a variable for grades
 
  var arryGrade =[];
-
+ var passAvg = 85;
+ var extraCredGrade= 50;
 //Prompting the user to enter grades 1 - 5
 
  arryGrade[0] = prompt("Please enter grade 1: (Please use whole numbers.)");
@@ -30,30 +31,42 @@ Prompting
 //If your overall grade average is above a 85 then you pass the class
 //If not then you fail the class
 
- var passAvg = 85;
-
-if(arryGrade[5] >= passAvg ) {
+//Adding logical operators
+if(arryGrade[5] >= passAvg )
+{
  console.log("You pass the class!");
 
-} else{
+}else
+{
  console.log("Your class average is to low. You do not pass.");
+
+ //Adding additional equation to find out if a failing student who gets extra credit passes
+ console.log("Extra credit is 50. You may have a chance to pass.");
+ arryGrade[5]= parseInt(arryGrade[4]) + parseInt(arryGrade[3]) + parseInt(arryGrade[2]) + parseInt(arryGrade[1]) + parseInt(arryGrade[0]) + parseInt(extraCredGrade) / 6;
+
+ //If the students average is higher than the passing average they pass with the extra credit
+ if (arryGrade[5] >= passAvg)
+ {
+  console.log("You pass the class!");
+ }
+ else
+ {
+  //the students average was failing and they did not earn the extra credit, therefore they failed.
+  console.log("Even with extra credit you fail.");
+ }
 
 }
 
 
-//Adding additional equation to find out if a failing student who gets extra credit passes
 
- arryGrade[5]= (parseInt(arryGrade[4]) + parseInt(arryGrade[3]) + parseInt(arryGrade[2]) + parseInt(arryGrade[1]) + parseInt(arryGrade[0]) + parseInt(extraCredGrade)) / 6;
 
-//Adding logical operator
 
- var extraCredGrade= 50 ;
 
- if(arryGrade[5] < passAvg || extraCredGrade ) {
-  console.log("You may pass the class on extra credit!")
 
- } else{
-  console.log("Your class average is still to low. You do not pass.")
 
- }
+
+
+
+
+
 

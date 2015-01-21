@@ -42,16 +42,18 @@ if(arryGrade[5] >= passAvg )
 
  //Adding additional equation to find out if a failing student who gets extra credit passes
  console.log("Extra credit is 50. You may have a chance to pass.");
- arryGrade[5]= parseInt(arryGrade[4]) + parseInt(arryGrade[3]) + parseInt(arryGrade[2]) + parseInt(arryGrade[1]) + parseInt(arryGrade[0]) + parseInt(extraCredGrade) / 6;
+ arryGrade[5]= (parseInt(arryGrade[4]) + parseInt(arryGrade[3]) + parseInt(arryGrade[2]) + parseInt(arryGrade[1]) + parseInt(arryGrade[0]) + parseInt(extraCredGrade)) / 6;
 
  //If the students average is higher than the passing average they pass with the extra credit
  if (arryGrade[5] >= passAvg)
  {
+  console.log(arryGrade[5]);
   console.log("You pass the class!");
  }
  else
  {
   //the students average was failing and they did not earn the extra credit, therefore they failed.
+  console.log(arryGrade[5]);
   console.log("Even with extra credit you fail.");
  }
 
@@ -59,7 +61,25 @@ if(arryGrade[5] >= passAvg )
 
 
 
+/*
+Grade 1 = 90
+Grade 2 = 85
+Grade 3 = 100
+Grade 4 = 76
+Grade 5 = 88
 
+'You pass the class!'
+
+grade 1 = 10
+grade 2 = 30
+grade 3 = 40
+grade 4 = 55
+grade 5 = 25
+
+'You do not pass the class!'
+
+
+ */
 
 
 

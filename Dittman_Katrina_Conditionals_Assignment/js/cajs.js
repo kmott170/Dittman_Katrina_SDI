@@ -24,8 +24,17 @@ Prompting
  //Adding all variables and dividing by the total amount of grades to get avg.
  arryGrade[5]= (parseInt(arryGrade[4]) + parseInt(arryGrade[3]) + parseInt(arryGrade[2]) + parseInt(arryGrade[1]) + parseInt(arryGrade[0])) /5;
 
+//Printing out total
+ console.log("The total average of your grades is:" + arryGrade[5]);
 
+ //If your overall grade average is above a 85 then you pass the class
+//If not then you fail the class
 
- //Printing out total
- console.log("The total average of your grades is: " + arryGrade[5] );
+ var passAvg = 85;
+if(arryGrade[5] >= passAvg ) {
+ console.log("You pass the class!")
 
+} else{
+ console.log("Your class average is too low. You do not pass.");
+
+}

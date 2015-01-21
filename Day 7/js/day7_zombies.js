@@ -43,4 +43,4 @@ while (numZombies <= 1000000) {
     daysTakes++;
 }
 
-console.log("It will take "+daysTakes+' days for a million zombies!");
+console.log("It will take "+daysTakes+" days for a million zombies!");

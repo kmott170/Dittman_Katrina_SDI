@@ -21,20 +21,34 @@ Prompting
  arryGrade[3] = prompt("Please enter grade 4: (Please use whole numbers.)");
  arryGrade[4] = prompt("Please enter grade 5: (Please use whole numbers.)");
 
- //Adding all variables and dividing by the total amount of grades to get avg.
+//Adding all variables and dividing by the total amount of grades to get avg.
  arryGrade[5]= (parseInt(arryGrade[4]) + parseInt(arryGrade[3]) + parseInt(arryGrade[2]) + parseInt(arryGrade[1]) + parseInt(arryGrade[0])) /5;
 
 //Printing out total
  console.log("The total average of your grades is:" + arryGrade[5]);
 
- //If your overall grade average is above a 85 then you pass the class
+//If your overall grade average is above a 85 then you pass the class
 //If not then you fail the class
 
  var passAvg = 85;
+
 if(arryGrade[5] >= passAvg ) {
  console.log("You pass the class!")
 
 } else{
- console.log("Your class average is too low. You do not pass.");
+ console.log("Your class average is to low. You do not pass.");
 
 }
+
+//Adding logical operator
+
+ var extraCredGrade= 90 ;
+
+ if(arryGrade[5] < passAvg || extraCredGrade ) {
+  console.log("You may pass the class on extra credit!")
+
+ } else{
+  console.log("Your class average is still to low. You do not pass.")
+
+ }
+

@@ -6,8 +6,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Day3/js/script.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Day3LabExpressions/Dittman_Katrina_Expressions_Flowchart/Dittman_Katrina_Expressions_Flowchart.graphml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Day3LabExpressions/Dittman_Katrina_Expressions_Flowchart/Dittman_Katrina_Expressions_Flowchart.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dittman_Katrina_Conditionals_Assignment/js/cajs.js" afterPath="$PROJECT_DIR$/Dittman_Katrina_Conditionals_Assignment/js/cajs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 4/js/day4_prompting.js" afterPath="$PROJECT_DIR$/Day 4/js/day4_prompting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 7/js/day7_forloop.js" afterPath="$PROJECT_DIR$/Day 7/js/day7_forloop.js" />
     </list>
     <ignored path="Dittman_Katrina_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -430,7 +430,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="55" width="1374" height="837" extended-state="1" />
+    <frame x="62" y="55" width="1374" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -438,7 +438,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />

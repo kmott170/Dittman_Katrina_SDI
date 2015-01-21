@@ -33,16 +33,21 @@ Prompting
  var passAvg = 85;
 
 if(arryGrade[5] >= passAvg ) {
- console.log("You pass the class!")
+ console.log("You pass the class!");
 
 } else{
  console.log("Your class average is to low. You do not pass.");
 
 }
 
+
+//Adding additional equation to find out if a failing student who gets extra credit passes
+
+ arryGrade[5]= (parseInt(arryGrade[4]) + parseInt(arryGrade[3]) + parseInt(arryGrade[2]) + parseInt(arryGrade[1]) + parseInt(arryGrade[0]) + parseInt(extraCredGrade)) / 6;
+
 //Adding logical operator
 
- var extraCredGrade= 90 ;
+ var extraCredGrade= 50 ;
 
  if(arryGrade[5] < passAvg || extraCredGrade ) {
   console.log("You may pass the class on extra credit!")

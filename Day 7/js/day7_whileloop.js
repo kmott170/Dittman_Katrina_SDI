@@ -7,7 +7,7 @@
  
  //alert("Test test testing test test");
  
- //The while loop, loops through a blank code as long as a condition is true
+ //The while loop, loops through a black code as long as a condition is true
  
  /*
   var i = 0;

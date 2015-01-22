@@ -5,7 +5,7 @@ SDI Campus
 Prompting
 */
 
-//alert("Testing Test Test Testing Test Test");
+//alert("Test test testing test test test");
 
 //Ask user for input - prompt()
 //Save users response - by creating a variable

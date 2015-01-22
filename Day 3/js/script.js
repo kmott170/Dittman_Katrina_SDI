@@ -6,7 +6,7 @@ Day 3 Coding
 
 // Single Lined comment
 
-//This is and alert
+//This is an alert
 //alert("Testing to see if this is connected!");
 
 //Console.log - allows programmers to see information

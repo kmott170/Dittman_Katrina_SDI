@@ -26,6 +26,6 @@ for(var k = 0; k < 5; k++){
     //If k is equal to 3 then stop the code
     
     if (k ===3) {
-        break;
+       break;
     }
 }

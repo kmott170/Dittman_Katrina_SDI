@@ -16,7 +16,7 @@ Here is an example of trying to find out how many horror movies
 var howManyHorrorMovies = 0;
  while (howManyHorrorMovies < 50)
  {
- console.log(howManyHorrorMovies + "Horror movies.")
+ console.log(howManyHorrorMovies + " Horror movies.")
 
   howManyHorrorMovies++
  }

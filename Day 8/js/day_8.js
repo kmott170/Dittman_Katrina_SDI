@@ -44,5 +44,17 @@ while(isNaN(age) || age=== ""){
 //The user types in a text string or left it blank
 console.log("Inside of while loop");
 age-prompt("Oops, Something went wrong. \nPlease type in only numbers. What is your age?");
+} else{
+    age-prompt("Please do not leave blank \nWhat is your age?");
+    
+}
+
+//Validating something specific
+
+var movieGenre= prompt("Do you want to see any action movie or comedy?");
+
+while (movieGenre !="action" && movieGenre!="comedy") {
+    
+    
 }
 

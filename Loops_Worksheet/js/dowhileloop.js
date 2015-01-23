@@ -20,3 +20,8 @@ var fluffyKitties = 0;
 
   } while (fluffyKitties < 70);
 
+ var meteors = prompt("How many meteors do you see?");  
+
+ do{  meteors = prompt("Please enter the number of meteors you saw falling from the sky. \nDon't forget to make this a number:") 
+
+ } while (meteors==="" || isNaN(meteors))

@@ -24,4 +24,8 @@ for(var xboxGames =0; xboxGames < 10; xboxGames++){
 
 }
 
+ var vitaGames = prompt("Please enter the amount of playstation vita games you own:");  
 
+ do{   vitaGames = prompt("Please enter the amount of playstation vita games. \nThis must be a valid number:"); 
+
+ }while (vitaGames==="" || isNaN(vitaGames))

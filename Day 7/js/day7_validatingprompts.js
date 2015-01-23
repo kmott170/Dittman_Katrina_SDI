@@ -24,7 +24,7 @@ while(firstName===""){
     //The user typed in nothing
     //Reprompt for first name
     firstName= prompt("Please type in your first name and DO NOT leave blank:");
-    
+
 }
 
 //Test to see if it is a number

@@ -19,3 +19,4 @@ var fluffyKitties = 0;
    fluffyKitties++
 
   } while (fluffyKitties < 70);
+

@@ -19,4 +19,11 @@ var howManyHorrorMovies = 0;
  console.log(howManyHorrorMovies + " Horror movies.")
 
   howManyHorrorMovies++
+
+ }
+
+ var eggs = prompt ("Please enter how many eggs you have:");
+
+ while(eggs==="" || isNaN(eggs)){
+  eggs= prompt("Please enter how many eggs you have, do not leave this blank.");
  }

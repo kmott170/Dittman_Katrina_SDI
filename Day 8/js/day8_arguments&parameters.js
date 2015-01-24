@@ -1,7 +1,7 @@
 /*
  Katrina Dittman
  01/22/2015
- Arguments & Peremeters
+ Arguments & Parameters
  */
 //alert("Help help help youuuuu!!");
 

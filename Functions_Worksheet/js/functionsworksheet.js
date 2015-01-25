@@ -11,16 +11,18 @@ Prompting
 //Calculate the circumference of a circle
 //C = 2 PI r
 
-function calcCircumf (PI,radius) {
-
- var Int= 2;
- Math.PI;
- var radius= 10;
- var circumf= Int * Math.PI * radius;
+//Function for 
+function calcCircumf (radius) {
 
  var circumf= 2 * Math.PI * radius;
- console.log("The circumference of a circle is " + circumf);
+
+ return circumf;
 
 }
 
- calcCircumf(2,Math.PI,10);
+ var result = calcCircumf(10);
+ console.log("The circumference of the circle is " +result);
+
+
+
+

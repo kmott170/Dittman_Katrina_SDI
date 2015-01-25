@@ -29,26 +29,6 @@ var returnedArea = calcArea(77,9);
 console.log(returnedArea);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Create a function to calculate the area of a circle
 // area = pi*r*r
 
@@ -67,31 +47,7 @@ function circleArea(radius) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- //Had two circle with the same radius. What is the total area?
+//Had two circle with the same radius. What is the total area?
  
  var areaTwo = result *2;
  

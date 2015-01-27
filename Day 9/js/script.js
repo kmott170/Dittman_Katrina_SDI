@@ -6,41 +6,34 @@
 
 //alert("Warning! Warning!");
 
-//Create variables for the min and max value
-
-var min = prompt("Please enter a min value");
-
-
-//Validate our min prompt
-while(isNaN(min) || min==="" || Number(min)>= Number(max)){
-    //Re-prompt the user for the correct information
-    
-    if (isNaN(max)) {
-        max= prompt("Please only use numbers");
-        
-    }else if (max==="")
-    
-        max=
-    }
-    
-    min= prompt ("Please do not leave blank and only use numbers \nWhat is the min value:");
+// Creating variables
+var min = parseInt(prompt("Enter a minimum value"));
+while (isNaN(min) || min === "") {
+    min = parseInt(prompt("Please do not leave blank and only use numbers. What is the min value?"));
 }
-
-
-var max = prompt("Please enter a max value");
-
-
-
-//Create function
-function randomizer (mn, mx){
-    //generate a random number
-    var randomNum = Math.round(Math.random() * (mx-mn) +mn);
-    
-    //Return that random number to our main code
+var max = parseInt(prompt("Enter a maximum value"));
+while (isNaN(max) || max === "" || min > max) {
+    if (isNaN(max)) {
+        max = parseInt(prompt("Please use only numbers"));
+    } else if (max === "") {
+        max = parseInt(prompt("Please do not leave blank"));
+    } else {
+        max = parseInt(prompt("Max value cannot be less than min value"));
+    }
+}
+function randomizer(min, max) {
+    // Generate random number
+    var randomNum = Math.round(Math.random() * (max - min) + max);
+    // Return number
     return randomNum;
 }
 
-//Function call BUT create a variable to catch the return value
-
+// Function call and catching the variable
 var randomNum = randomizer(min, max);
-console.log("Your random number between " +min+ " and " +max+ " is " +randomNum);
+console.log("Your random number between " + min + " and " + max + " is " + randomNum);
+// 15 random numbers between min and max
+// Create for loop
+for (var i = 0; i < 15; i++) {
+
+    console.log();
+}

@@ -26,7 +26,21 @@ function calcInterest(time, rate, principal) {
   prinicpal = parseInt( prompt("Please use numbers only. Please enter the principal of your loan."));
  }
 
+ var rate = parseInt( prompt("Please enter the rate: \nOnly use whole numbers for this: "));
 
+ while(isNaN(rate) || rate===""){
+  rate= parseInt( prompt("Please only use numbers in your response. Please enter the rate of your loan."));
+ }
+
+ var time = parseInt( prompt("Please enter the amount of time in months: "));
+
+ while(isNaN(time) || time===""){
+  time= parseInt( prompt("Please enter only numbers. Please enter the amount of time the loan is for."));
+ }
+
+ var returnedInterest = calcInterest(time, rate, principal);
+
+ console.log("The interest on your loan is: " +returnedInterest);
 
 
 

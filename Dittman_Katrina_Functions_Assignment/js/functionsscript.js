@@ -48,10 +48,22 @@ var calcTotalPriceAnon = function (price, interest) {
 
  var total = interest + price;
  return total;
-}
 
+};
 
-var result = calcTotalPriceAnon();
+ var originalCost = (parseInt ("Please enter the original cost of your loan. "));
+
+ while (isNaN(originalCost) || originalCost==="") {
+  originalCost = parseInt(prompt("Please enter only numbers and no commas. Please enter your original cost of your loan. "));
+ }
+
+  var interestRate= (parseInt("Please enter the interest rate you got from above. "));
+
+  while (isNaN(interestRate) || interestRate===""){
+  interestRate = parseInt (prompt ("Please enter only numbers. Please enter the interest rate you got from above."));
+  }
+
+  var result = calcTotalPriceAnon(originalCost, interestRate);
  console.log("Your total loan amount is " +result);
 
 

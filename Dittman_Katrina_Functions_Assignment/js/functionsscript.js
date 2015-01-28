@@ -42,8 +42,17 @@ function calcInterest(time, rate, principal) {
 
  console.log("The interest on your loan is: " +returnedInterest);
 
+//Anonymous Function
+
+var calcTotalPriceAnon = function (price, interest) {
+
+ var total = interest + price;
+ return total;
+}
 
 
+var result = calcTotalPriceAnon();
+ console.log("Your total loan amount is " +result);
 
 
 

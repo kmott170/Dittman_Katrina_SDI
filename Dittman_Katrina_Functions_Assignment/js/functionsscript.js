@@ -20,7 +20,7 @@ function calcInterest(time, rate, principal) {
  return interest;
 }
 //Prompting & validating principal
- var principal = parseInt(prompt ("Please enter the principal rate of your loan: \nPlease do not use commas in your response. "));
+ var principal = parseInt( prompt("Please enter the principal rate of your loan: \nPlease do not use commas in your response. "));
 
  while (isNaN(principal) || principal ===""){
   prinicpal = parseInt( prompt("Please use numbers only. Please enter the principal of your loan."));

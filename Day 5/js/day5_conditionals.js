@@ -64,7 +64,7 @@ console.log("What comes after the if statement.");
 
 //What ride can the kid go on based on his height
 //If the kid is 48+ then Space Mountain
-//If the kid is 40+ then Bu Lightyear ride
+//If the kid is 40+ then Buzz Lightyear ride
 //Anything short = Winnie the pooh
 
 
